@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: #d799f2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #8b2a8c;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.main {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+a {
+  color: #b149bf;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1, 5rem;
+  border: 1px solid #b149bf;
+  border-radius: 15px;
+}
+.boton {
+  margin-block: 1rem;
+}
+
+a:hover {
+  box-shadow: 0px 5px 20px;
+  border: 1px solid #b149bf;
+}
