@@ -1,4 +1,7 @@
 function setup() {
+  let myCanvas = createCanvas(windowWidth, windowHeight);
+  myCanvas.parent("#my-p5-sketch"); //id, se utiliza #
+
   createCanvas(710, 400, WEBGL);
   angleMode(DEGREES);
   strokeWeight(3);
