@@ -1,8 +1,7 @@
 function setup() {
-  let myCanvas = createCanvas(windowWidth, windowHeight);
+  let myCanvas = createCanvas(windowWidth, windowHeight, WEBGL);
   myCanvas.parent("#my-p5-sketch"); //id, se utiliza #
 
-  createCanvas(710, 400, WEBGL);
   angleMode(DEGREES);
   strokeWeight(3);
   noFill();
@@ -14,10 +13,10 @@ function setup() {
 function draw() {
   background(255, 228, 225);
 
-  // Adjust camera based on mouse/touch
+  // ajustar la cámara
   orbitControl();
 
-  // Set dynamic color based on mouse X position
+  // dinamic color - posición X del mouse
   let dynamicColor = map(mouseX, 0, width, 100, 255);
   stroke(dynamicColor, 50, 150);
 
