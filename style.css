@@ -109,6 +109,8 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .main {
@@ -121,7 +123,7 @@ h1 {
 }
 
 .container {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 a {
@@ -134,8 +136,28 @@ a {
   border: 1px solid #b149bf;
   border-radius: 15px;
 }
+.botonera {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 10px;
+}
+
 .boton {
+  text-align: center;
+  background-color: #d799f2;
   margin-block: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton a {
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+  color: #333; /* Color del texto */
+  font-family: "Sofadi One", sans-serif; /* Tipografía de Google Fonts */
+}
+
+.boton:hover {
+  background-color: #d799f2;
 }
 
 a:hover {
