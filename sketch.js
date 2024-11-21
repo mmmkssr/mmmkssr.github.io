@@ -3,7 +3,7 @@ function setup() {
   myCanvas.parent("#my-p5-sketch"); //id, se utiliza #
 
   angleMode(DEGREES);
-  strokeWeight(3);
+  strokeWeight(1);
   noFill();
   describe(
     "Users can click and drag to rotate the view, and move the mouse to dynamically change the size and color of floating 3D pyramids."

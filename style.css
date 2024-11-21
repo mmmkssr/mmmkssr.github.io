@@ -87,15 +87,16 @@ video {
   vertical-align: baseline;
 }
 .uniquifier {
-  font-family: "Sofadi", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
 html,
 body {
   background-color: #d799f2;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #my-p5-sketch {
@@ -105,12 +106,20 @@ body {
 
 h1 {
   color: #8b2a8c;
-  font-family: "Segoe UI", system-ui;
-  font-weight: 400;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 3rem;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
+  letter-spacing: 0.2rem;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover {
+  color: #b149bf;
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #d799f2, 0 0 20px #d799f2, 0 0 30px #d799f2;
 }
 
 .main {
@@ -140,20 +149,23 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  margin: 10px;
+  margin: 15px;
 }
 
 .boton {
   text-align: center;
   background-color: #d799f2;
-  margin-block: 1rem;
   transition: background-color 0.3s ease;
+  border-radius: 15px;
+  opacity: 85%;
 }
 
 .boton a {
-  text-decoration: none; /* Eliminar subrayado de los enlaces */
-  color: #333; /* Color del texto */
-  font-family: "Sofadi One", sans-serif; /* Tipografía de Google Fonts */
+  text-decoration: none;
+  color: #3f0359;
+  font-family: "Parkinsans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .boton:hover {
